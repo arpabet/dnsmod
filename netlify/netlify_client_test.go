@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Zander Schwid & Co. LLC.
+ * Copyright (c) 2025 Karagatan LLC.
  * SPDX-License-Identifier: BUSL-1.1
  */
 
@@ -7,9 +7,9 @@ package netlify_test
 
 import (
 	"fmt"
-	"github.com/sprintframework/dns"
-	"github.com/sprintframework/dnsmod"
-	"github.com/sprintframework/dnsmod/netlify"
+	"go.arpabet.com/dns"
+	"go.arpabet.com/dnsmod"
+	"go.arpabet.com/dnsmod/netlify"
 	"github.com/stretchr/testify/require"
 	"os"
 	"strings"

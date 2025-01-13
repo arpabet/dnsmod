@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Zander Schwid & Co. LLC.
+ * Copyright (c) 2025 Karagatan LLC.
  * SPDX-License-Identifier: BUSL-1.1
  */
 
@@ -7,8 +7,8 @@ package netlify
 
 import (
 	"github.com/pkg/errors"
-	"github.com/codeallergy/glue"
-	"github.com/sprintframework/dns"
+	"go.arpabet.com/glue"
+	"go.arpabet.com/dns"
 	"strings"
 )
 

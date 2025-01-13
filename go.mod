@@ -1,13 +1,13 @@
-module github.com/sprintframework/dnsmod
+module go.arpabet.com/dnsmod
 
 go 1.17
 
 require (
-	github.com/codeallergy/glue v1.1.4
 	github.com/likexian/whois v1.14.2
 	github.com/pkg/errors v0.9.1
-	github.com/sprintframework/dns v1.0.3
 	github.com/stretchr/testify v1.8.2
+	go.arpabet.com/dns v1.0.0
+	go.arpabet.com/glue v1.0.0
 	go.uber.org/zap v1.24.0
 )
 

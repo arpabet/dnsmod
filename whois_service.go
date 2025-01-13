@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 Zander Schwid & Co. LLC.
+ * Copyright (c) 2025 Karagatan LLC.
  * SPDX-License-Identifier: BUSL-1.1
  */
 
@@ -7,7 +7,7 @@ package dnsmod
 
 import (
 	"github.com/likexian/whois"
-	"github.com/sprintframework/dns"
+	"go.arpabet.com/dns"
 	"go.uber.org/zap"
 	"strings"
 )
