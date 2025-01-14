@@ -1,9 +1,11 @@
 module go.arpabet.com/dnsmod
 
-go 1.17
+go 1.21
+
+toolchain go1.23.4
 
 require (
-	github.com/likexian/whois v1.14.2
+	github.com/likexian/whois v1.14.8
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.2
 	go.arpabet.com/dns v1.0.0
@@ -17,6 +19,6 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.9.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/net v0.9.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
